@@ -10,7 +10,7 @@ export default defineConfig({
       '@': resolve('./src')
     }
   },
-  base: '/pdf/'
+  base: '/'
   // css:{
   //   preprocessorOptions: {
   //     less: {
