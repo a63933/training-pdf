@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <iframe class="fileView" :src="aa" frameborder="0"></iframe>
+    <embed class="fileView" :src="aa" />
   </div>
 </template>
 
