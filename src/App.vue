@@ -1,6 +1,12 @@
 <template>
   <div class="container">
-    <embed class="fileView" :src="aa" />
+    <div class="pageNav">
+      导航栏
+    </div>
+    <div class="pageView">
+      <router-view></router-view>
+    </div>
+    <!-- <embed class="fileView" :src="aa" /> -->
   </div>
 </template>
 
@@ -16,8 +22,20 @@ import aa from '@/assets/aa.pdf'
   box-sizing: border-box;
   vertical-align: top;
 }
+div.container{
+  display: flex;
+  height: 100vh;
+  div.pageNav{
+    width: 100px;
+    box-sizing: border-box;
+    background-color: #eee;
+  }
+  div.pageView{
+    width: calc(100vw - 100px);
+  }
+}
 .fileView{
-  width: 100vw;
+  width: calc(100vw - 100px);
   height: 100vh;
 }
 </style>
