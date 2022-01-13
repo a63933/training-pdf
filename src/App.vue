@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="pageNav">
-      导航栏
+      <PageNav />
     </div>
     <div class="pageView">
       <router-view></router-view>
@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts" setup>
-import aa from '@/assets/aa.pdf'
+import PageNav from '@/components/pageNav.vue';
 </script>
 
 <style lang="less">

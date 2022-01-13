@@ -1,12 +1,27 @@
 import {createRouter, createWebHashHistory} from 'vue-router'
 import Welcome from '@/components/welcome.vue'
-const Home = { template: '<div>Home</div>' }
-const About = { template: '<div>About</div>' }
+import PdfView from '@/components/pdf.vue'
+import listData from '@utils/const.ts';
 
-const routes = [
-  { path: '/', component: Welcome },
-  { path: '/about', component: About },
-]
+const routes = ([{ path: '/', component: Welcome }]).concat(listData.pdfList.map((item: any) => ({
+  path: item.path,
+  component: PdfView,
+  meta: {
+    pdfPath: item.pdfPath,
+    text: item.text
+  }
+})))
+
+// const routes = [
+//   { path: '/', component: Welcome },
+//   {
+//     path: '/one-one-one',
+//     component: PdfView
+//   },{
+//     path: '/one-one-two',
+//     component: PdfView
+//   }
+// ]
 
 
 const router = createRouter({
