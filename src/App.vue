@@ -26,16 +26,16 @@ div.container{
   display: flex;
   height: 100vh;
   div.pageNav{
-    width: 100px;
+    width: 160px;
     box-sizing: border-box;
-    background-color: #eee;
+    background-color: #fff;
   }
   div.pageView{
-    width: calc(100vw - 100px);
+    width: calc(100vw - 160px);
   }
 }
 .fileView{
-  width: calc(100vw - 100px);
+  width: calc(100vw - 160px);
   height: 100vh;
 }
 </style>

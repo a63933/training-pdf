@@ -14,12 +14,33 @@
 <script lang='ts' setup>
 import { ref } from 'vue';
 import { RouterLink } from 'vue-router'
-import listData from '@utils/const.ts';
 
-const linkArr = ref<any[]>(listData.pdfList.map((item: any) => ({
-    to: item.path,
-    text: item.text
-})))
+const linkArr = ref<any[]>([
+    {
+        to: '/one-one-one',
+        text: '函数式编程'
+    },
+    {
+        to: '/one-one-two',
+        text: '异步编程'
+    },
+    {
+        to: '/one-two-one',
+        text: 'ECMAScript'
+    },
+    {
+        to: '/one-two-two',
+        text: 'TypeScript'
+    },
+    {
+        to: '/one-two-three',
+        text: 'JavaScript性能优化'
+    },
+    {
+        to: '/one-two-four',
+        text: '性能优化'
+    }
+])
 
 </script>
 <style lang="less">
@@ -32,15 +53,17 @@ const linkArr = ref<any[]>(listData.pdfList.map((item: any) => ({
     }
     .navItem {
         width: 100%;
-        height: 34px;
-        line-height: 34px;
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
         color: #666;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
     }
-    .router-link-exact-active >  .navItem {
+    .router-link-exact-active > .navItem {
         color: orange;
+        background: #f1f1f1;
     }
 }
 </style>
