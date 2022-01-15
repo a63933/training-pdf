@@ -39,7 +39,35 @@ const linkArr = ref<any[]>([
     {
         to: '/one-two-four',
         text: '性能优化'
-    }
+    },
+    {
+        to: '/two-one-one',
+        text: '前端工程化'
+    },
+    {
+        to: '/two-one-two',
+        text: '脚手架工具'
+    },
+    {
+        to: '/two-one-three',
+        text: '自动化构建'
+    },
+    {
+        to: '/two-two-one',
+        text: '模块化开发'
+    },
+    {
+        to: '/two-two-two',
+        text: 'webpack5'
+    },
+    {
+        to: '/two-two-four',
+        text: '规范化标准'
+    },
+    {
+        to: '/three-one-note',
+        text: 'vue基础笔记'
+    },
 ])
 
 </script>

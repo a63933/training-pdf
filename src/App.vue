@@ -32,6 +32,9 @@ div.container{
   }
   div.pageView{
     width: calc(100vw - 160px);
+    overflow: auto;
+    word-wrap: break-word;
+    white-space: wrap;
   }
 }
 .fileView{
