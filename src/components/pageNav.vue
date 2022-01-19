@@ -65,8 +65,36 @@ const linkArr = ref<any[]>([
         text: '规范化标准'
     },
     {
-        to: '/three-one-note',
+        to: '/three-one-one',
         text: 'vue基础笔记'
+    },
+    {
+        to: '/three-two-one',
+        text: 'vue源码-响应式原理'
+    },
+    {
+        to: '/three-two-two',
+        text: 'vue源码-虚拟DOM'
+    },
+    {
+        to: '/three-two-three',
+        text: 'vue源码-模板编译和组件化'
+    },
+    {
+        to: '/three-three-one',
+        text: 'vuex'
+    },
+    {
+        to: '/three-three-two',
+        text: '服务端渲染基础'
+    },
+    {
+        to: '/three-three-three',
+        text: 'nuxtjs基础'
+    },
+    {
+        to: '/three-three-four',
+        text: 'nuxtjs综合案例'
     },
 ])
 

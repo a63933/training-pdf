@@ -52,8 +52,36 @@ const routes = [
     component: () => import('@/components/02-02-04/index.vue')
   },
   {
-    path: '/three-one-note',
-    component: () => import('@/components/03-01-note/index.vue')
+    path: '/three-one-one',
+    component: () => import('@/components/03-01-01/index.vue')
+  },
+  {
+    path: '/three-two-one',
+    component: () => import('@/components/03-02-01/index.vue')
+  },
+  {
+    path: '/three-two-two',
+    component: () => import('@/components/03-02-02/index.vue')
+  },
+  {
+    path: '/three-two-three',
+    component: () => import('@/components/03-02-03/index.vue')
+  },
+  {
+    path: '/three-three-one',
+    component: () => import('@/components/03-03-01/index.vue')
+  },
+  {
+    path: '/three-three-two',
+    component: () => import('@/components/03-03-02/index.vue')
+  },
+  {
+    path: '/three-three-three',
+    component: () => import('@/components/03-03-03/index.vue')
+  },
+  {
+    path: '/three-three-four',
+    component: () => import('@/components/03-03-04/index.vue')
   }
 ]
 
