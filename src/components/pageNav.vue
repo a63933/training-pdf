@@ -82,6 +82,8 @@ const linkArr = ref<any[]>([
     .navItem {
         width: 100%;
         font-size: 14px;
+        box-sizing: border-box;
+        padding: 0px 4px;
         height: 30px;
         line-height: 30px;
         color: #666;
