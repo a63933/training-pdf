@@ -96,6 +96,50 @@ const linkArr = ref<any[]>([
         to: '/three-three-four',
         text: 'nuxtjs综合案例'
     },
+    {
+        to: '/three-four-one',
+        text: '搭建自己的ssr'
+    },
+    {
+        to: '/three-four-three',
+        text: '组件化开发'
+    },
+    {
+        to: '/three-five-one',
+        text: 'Vue3'
+    },
+    {
+        to: '/three-six-one',
+        text: 'vue项目'
+    },
+    {
+        to: '/three-seven-one',
+        text: 'vue3项目'
+    },
+    {
+        to: '/four-one-one',
+        text: 'React基础回顾'
+    },
+    {
+        to: '/four-one-two',
+        text: 'Virtual DOM 及 Diff 算法'
+    },
+    {
+        to: '/four-one-three',
+        text: 'fiber'
+    },
+    {
+        to: '/four-two-one',
+        text: 'Redux'
+    },
+    {
+        to: '/four-two-two',
+        text: 'MobX'
+    },
+    {
+        to: '/four-two-three',
+        text: 'MobX6'
+    },
 ])
 
 </script>

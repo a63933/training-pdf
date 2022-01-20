@@ -82,6 +82,50 @@ const routes = [
   {
     path: '/three-three-four',
     component: () => import('@/components/03-03-04/index.vue')
+  },
+  {
+    path: '/three-four-one',
+    component: () => import('@/components/03-04-01/index.vue')
+  },
+  {
+    path: '/three-four-three',
+    component: () => import('@/components/03-04-03/index.vue')
+  },
+  {
+    path: '/three-five-one',
+    component: () => import('@/components/03-05-01/index.vue')
+  },
+  {
+    path: '/three-six-one',
+    component: () => import('@/components/03-06-01/index.vue')
+  },
+  {
+    path: '/three-seven-one',
+    component: () => import('@/components/03-07-01/index.vue')
+  },
+  {
+    path: '/four-one-one',
+    component: () => import('@/components/04-01-01/index.vue')
+  },
+  {
+    path: '/four-one-two',
+    component: () => import('@/components/04-01-02/index.vue')
+  },
+  {
+    path: '/four-one-three',
+    component: () => import('@/components/04-01-03/index.vue')
+  },
+  {
+    path: '/four-two-one',
+    component: () => import('@/components/04-02-01/index.vue')
+  },
+  {
+    path: '/four-two-two',
+    component: () => import('@/components/04-02-02/index.vue')
+  },
+  {
+    path: '/four-two-three',
+    component: () => import('@/components/04-02-03/index.vue')
   }
 ]
 
