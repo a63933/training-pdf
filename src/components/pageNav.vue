@@ -101,6 +101,10 @@ const linkArr = ref<any[]>([
         text: '搭建自己的ssr'
     },
     {
+        to: '/three-four-two',
+        text: 'gridsome'
+    },
+    {
         to: '/three-four-three',
         text: '组件化开发'
     },
@@ -139,6 +143,50 @@ const linkArr = ref<any[]>([
     {
         to: '/four-two-three',
         text: 'MobX6'
+    },
+    {
+        to: '/four-three-one',
+        text: 'Hooks'
+    },
+    {
+        to: '/four-three-two',
+        text: 'Formik'
+    },
+    {
+        to: '/four-three-three',
+        text: 'Component'
+    },
+    {
+        to: '/four-three-four',
+        text: 'CSS-IN-JS'
+    },
+    {
+        to: '/four-three-five',
+        text: 'ChakraUI'
+    },
+    {
+        to: '/four-three-six',
+        text: 'React性能优化最佳实践'
+    },
+    {
+        to: '/four-four-one',
+        text: 'ReactSSR'
+    },
+    {
+        to: '/four-four-two',
+        text: 'Next'
+    },
+    {
+        to: '/four-four-three',
+        text: 'Gatsby'
+    },
+    {
+        to: '/four-six-one',
+        text: 'Angular 企业实战开发'
+    },
+     {
+        to: '/five-one-one',
+        text: 'Node核心编程'
     },
 ])
 
