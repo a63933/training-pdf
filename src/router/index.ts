@@ -176,6 +176,22 @@ const routes = [
     component: () => import('@/components/05-01-01/index.vue')
   },
   {
+    path: '/six-two-one',
+    component: () => import('@/components/06-02-01/index.vue')
+  },
+  {
+    path: '/six-two-two',
+    component: () => import('@/components/06-02-02/index.vue')
+  },
+  {
+    path: '/six-two-three',
+    component: () => import('@/components/06-02-03/index.vue')
+  },
+  {
+    path: '/six-two-four',
+    component: () => import('@/components/06-02-04/index.vue')
+  },
+  {
     path: '/six-three-one',
     component: () => import('@/components/06-03-01/index.vue')
   },
@@ -185,6 +201,14 @@ const routes = [
   },
   {
     path: '/six-three-three',
+    component: () => import('@/components/06-03-03/index.vue')
+  },
+  {
+    path: '/six-three-four',
+    component: () => import('@/components/06-03-02/index.vue')
+  },
+  {
+    path: '/six-three-five',
     component: () => import('@/components/06-03-03/index.vue')
   }
 ]

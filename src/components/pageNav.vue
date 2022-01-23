@@ -189,15 +189,39 @@ const linkArr = ref<any[]>([
         text: 'Node核心编程'
     },
     {
+        to: '/six-two-one',
+        text: 'React Native'
+    },
+    {
+        to: '/six-two-two',
+        text: 'React Native'
+    },
+    {
+        to: '/six-two-three',
+        text: 'RN IOS 环境搭建'
+    },
+    {
+        to: '/six-two-four',
+        text: 'RN 安卓环境搭建'
+    },
+    {
         to: '/six-three-one',
         text: 'Dart 基础'
     },
     {
         to: '/six-three-two',
-        text: 'Flutter 基础'
+        text: 'Flutter 之 Windows 环境搭建'
     },
     {
         to: '/six-three-three',
+        text: 'Flutter 之 Mac 环境搭建'
+    },
+    {
+        to: '/six-three-four',
+        text: 'Flutter 基础'
+    },
+    {
+        to: '/six-three-five',
         text: 'Flutter 项目'
     },
 ])

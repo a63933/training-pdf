@@ -5,7 +5,7 @@
   </div>
 </template>
 <script lang='ts' setup>
-import pdfFile from './Flutter 项目.pdf';
+import pdfFile from './Flutter 之 Mac 环境搭建.pdf';
 </script>
 <style lang="less">
  
