@@ -188,6 +188,18 @@ const linkArr = ref<any[]>([
         to: '/five-one-one',
         text: 'Node核心编程'
     },
+    {
+        to: '/six-three-one',
+        text: 'Dart 基础'
+    },
+    {
+        to: '/six-three-two',
+        text: 'Flutter 基础'
+    },
+    {
+        to: '/six-three-three',
+        text: 'Flutter 项目'
+    },
 ])
 
 </script>

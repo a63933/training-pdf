@@ -174,6 +174,18 @@ const routes = [
   {
     path: '/five-one-one',
     component: () => import('@/components/05-01-01/index.vue')
+  },
+  {
+    path: '/six-three-one',
+    component: () => import('@/components/06-03-01/index.vue')
+  },
+  {
+    path: '/six-three-two',
+    component: () => import('@/components/06-03-02/index.vue')
+  },
+  {
+    path: '/six-three-three',
+    component: () => import('@/components/06-03-03/index.vue')
   }
 ]
 
