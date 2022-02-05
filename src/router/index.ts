@@ -210,6 +210,10 @@ const routes = [
   {
     path: '/six-three-five',
     component: () => import('@/components/06-03-03/index.vue')
+  },
+  {
+    path: '/seven-one-one',
+    component: () => import('@/components/07-01-01/index.vue')
   }
 ]
 
