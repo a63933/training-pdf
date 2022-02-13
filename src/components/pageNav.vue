@@ -228,6 +228,10 @@ const linkArr = ref<any[]>([
         to: '/seven-one-one',
         text: '微前端'
     },
+    {
+        to: '/seven-three-one',
+        text: '前端可视化'
+    },
 ])
 
 </script>

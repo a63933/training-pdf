@@ -214,6 +214,10 @@ const routes = [
   {
     path: '/seven-one-one',
     component: () => import('@/components/07-01-01/index.vue')
+  },
+  {
+    path: '/seven-three-one',
+    component: () => import('@/components/07-03-01/index.vue')
   }
 ]
 
